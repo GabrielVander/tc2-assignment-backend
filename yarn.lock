@@ -1463,6 +1463,11 @@ duplexer3@^0.1.4:
   resolved "https://registry.yarnpkg.com/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
   integrity sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI=
 
+easy-express-crud-generator@^1.4.9:
+  version "1.4.9"
+  resolved "https://registry.yarnpkg.com/easy-express-crud-generator/-/easy-express-crud-generator-1.4.9.tgz#1f926b1126d9a0a342a4922619ff5a82250af902"
+  integrity sha512-WAsUEOgZZBTsplOcLPcwmdjzCXvjycohipHE3hTZvRx66Xv3SK4vIFhsbr6j3B2tjcYBCb0AsfQKR/0Eefrd6g==
+
 ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"

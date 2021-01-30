@@ -25,7 +25,6 @@ export const AnimalSchema = new Schema(
 export const ServiceSchema = new Schema(
     {
         name: String,
-        _animals: [{type: Schema.Types.ObjectId, ref: 'Animal'}],
         totalPrice: Number,
     },
     {

@@ -7,6 +7,10 @@ import {createServer} from "http";
 
 import {port} from "./env";
 import {initializeMongoose} from "./repository/connection";
+import customerRouter from "./routes/customer";
+import animalRouter from "./routes/animal";
+import serviceRouter from "./routes/service";
+import orderRouter from "./routes/order";
 
 const app = express();
 app.use(cors());
@@ -19,6 +23,10 @@ app.use(cookieParser());
 initializeMongoose();
 
 app.use('/', indexRouter);
+app.use('/customer', customerRouter);
+app.use('/animal', animalRouter);
+app.use('/service', serviceRouter);
+app.use('/order', orderRouter);
 
 const server = createServer(app);
 
