@@ -12,6 +12,9 @@
     "watch:dev": "nodemon",
     "prod": "yarn run build && yarn run server"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
